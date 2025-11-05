@@ -1,8 +1,8 @@
 # AstroByKrishna - Astrophotography Portfolio
 
-A modern, responsive portfolio website showcasing astrophotography work by Krishna Sathvik Mantripragada. Built with React, TypeScript, Tailwind CSS, and Vite, deployed on Vercel.
+A modern, responsive portfolio website showcasing astrophotography work by Krishna. Built with React, TypeScript, Tailwind CSS, and Vite, deployed on Vercel.
 
-🌐 **Live Site**: [astrobykrishna.com](https://astrobykrishna.com)
+🌐 **Live Site**: [www.astrobykrishna.com](https://www.astrobykrishna.com)
 
 ## ✨ Features
 
@@ -216,9 +216,9 @@ MIT
 
 ## 👤 Author
 
-**Krishna Sathvik Mantripragada**
+**Krishna**
 
-- Website: [astrobykrishna.com](https://astrobykrishna.com)
+- Website: [www.astrobykrishna.com](https://www.astrobykrishna.com)
 - Instagram: [@astrobykrishna](https://www.instagram.com/astrobykrishna/)
 - Email: astrobykrishna@gmail.com
 

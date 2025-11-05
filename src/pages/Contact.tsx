@@ -1,5 +1,9 @@
 import { useState } from 'react'
 import emailjs from '@emailjs/browser'
+import { MdEmail } from 'react-icons/md'
+import { HiLocationMarker } from 'react-icons/hi'
+import { FaInstagram, FaUnsplash } from 'react-icons/fa'
+import { Si500Px, SiPexels } from 'react-icons/si'
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -181,7 +185,7 @@ const Contact = () => {
           <h2 className="text-2xl font-semibold text-zinc-900 mb-6 font-geist">Direct Contact</h2>
           <div className="space-y-4 font-geist">
             <div className="flex items-center">
-              <span className="text-2xl mr-3">📧</span>
+              <MdEmail className="text-2xl mr-3 text-zinc-600" />
               <div>
                 <p className="text-sm text-zinc-500 mb-1">Email</p>
                 <a
@@ -193,18 +197,60 @@ const Contact = () => {
               </div>
             </div>
             <div className="flex items-center">
-              <span className="text-2xl mr-3">📍</span>
+              <HiLocationMarker className="text-2xl mr-3 text-zinc-600" />
               <div>
                 <p className="text-sm text-zinc-500 mb-1">Based in</p>
                 <p className="text-zinc-900 font-medium">United States</p>
               </div>
             </div>
             <div className="flex items-center">
-              <span className="text-2xl mr-3">🌌</span>
+              <FaInstagram className="text-2xl mr-3 text-zinc-600" />
               <div>
                 <p className="text-sm text-zinc-500 mb-1">Instagram</p>
                 <a
                   href="https://www.instagram.com/astrobykrishna/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-zinc-900 hover:text-zinc-600 transition-colors font-medium"
+                >
+                  @astrobykrishna
+                </a>
+              </div>
+            </div>
+            <div className="flex items-center">
+              <Si500Px className="text-2xl mr-3 text-zinc-600" />
+              <div>
+                <p className="text-sm text-zinc-500 mb-1">500px</p>
+                <a
+                  href="https://500px.com/p/astrobykrishna"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-zinc-900 hover:text-zinc-600 transition-colors font-medium"
+                >
+                  astrobykrishna
+                </a>
+              </div>
+            </div>
+            <div className="flex items-center">
+              <FaUnsplash className="text-2xl mr-3 text-zinc-600" />
+              <div>
+                <p className="text-sm text-zinc-500 mb-1">Unsplash</p>
+                <a
+                  href="https://unsplash.com/@astrobykrishna"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-zinc-900 hover:text-zinc-600 transition-colors font-medium"
+                >
+                  @astrobykrishna
+                </a>
+              </div>
+            </div>
+            <div className="flex items-center">
+              <SiPexels className="text-2xl mr-3 text-zinc-600" />
+              <div>
+                <p className="text-sm text-zinc-500 mb-1">Pexels</p>
+                <a
+                  href="https://www.pexels.com/@astrobykrishna/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-zinc-900 hover:text-zinc-600 transition-colors font-medium"

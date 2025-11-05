@@ -17,7 +17,7 @@ const About = () => {
         <section className="mb-16">
           <div className="prose max-w-none">
             <p className="text-lg text-zinc-600 leading-relaxed mb-6 font-geist">
-              Krishna Sathvik Mantripragada is an astro-visual artist and photographer based in the United States whose work celebrates the profound beauty of the night sky. His imagery reveals celestial wonders — from luminous Milky Way arcs and vibrant auroras to mesmerizing star trails — all captured across America's most breathtaking dark-sky national parks.
+              Krishna is an astro-visual artist and photographer based in the United States whose work celebrates the profound beauty of the night sky. His imagery reveals celestial wonders — from luminous Milky Way arcs and vibrant auroras to mesmerizing star trails — all captured across America's most breathtaking dark-sky national parks.
             </p>
           </div>
         </section>
