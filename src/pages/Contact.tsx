@@ -1,7 +1,5 @@
 import { useState } from 'react'
 import emailjs from '@emailjs/browser'
-import { MdEmail } from 'react-icons/md'
-import { HiLocationMarker } from 'react-icons/hi'
 import { FaInstagram, FaUnsplash } from 'react-icons/fa'
 import { Si500Px, SiPexels } from 'react-icons/si'
 
@@ -180,29 +178,10 @@ const Contact = () => {
           </form>
         </div>
 
-        {/* Direct Contact */}
+        {/* Follow Me */}
         <div className="bg-white rounded-3xl p-8 shadow-2xl border border-zinc-200 mb-8">
-          <h2 className="text-2xl font-semibold text-zinc-900 mb-6 font-geist">Direct Contact</h2>
+          <h2 className="text-2xl font-semibold text-zinc-900 mb-6 font-geist">Follow Me</h2>
           <div className="space-y-4 font-geist">
-            <div className="flex items-center">
-              <MdEmail className="text-2xl mr-3 text-zinc-600" />
-              <div>
-                <p className="text-sm text-zinc-500 mb-1">Email</p>
-                <a
-                  href="mailto:astrobykrishna@gmail.com"
-                  className="text-zinc-900 hover:text-zinc-600 transition-colors font-medium"
-                >
-                  astrobykrishna@gmail.com
-                </a>
-              </div>
-            </div>
-            <div className="flex items-center">
-              <HiLocationMarker className="text-2xl mr-3 text-zinc-600" />
-              <div>
-                <p className="text-sm text-zinc-500 mb-1">Based in</p>
-                <p className="text-zinc-900 font-medium">United States</p>
-              </div>
-            </div>
             <div className="flex items-center">
               <FaInstagram className="text-2xl mr-3 text-zinc-600" />
               <div>
