@@ -11,7 +11,7 @@ interface ImageCardProps {
   index?: number
 }
 
-const ImageCard = ({ image, index = 0 }: ImageCardProps) => {
+const ImageCard = ({ image }: ImageCardProps) => {
   const [isLoading, setIsLoading] = useState(true)
   const [imageError, setImageError] = useState(false)
 
