@@ -27,3 +27,7 @@ dist-ssr
 *.sln
 *.sw?
 
+# Large image source files (keep only JPG/PNG for web)
+*.tif
+*.tiff
+
