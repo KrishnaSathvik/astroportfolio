@@ -27,7 +27,7 @@ dist-ssr
 *.sln
 *.sw?
 
-# Large source image files (keep only JPG/PNG versions)
+# Large image files - TIFF files are too large for git
 *.tif
 *.tiff
 

@@ -7,8 +7,8 @@ interface ImageCardProps {
     description: string
     imageUrl: string
     category: string
+    location?: string
   }
-  index?: number
 }
 
 const ImageCard = ({ image }: ImageCardProps) => {
@@ -85,6 +85,13 @@ const ImageCard = ({ image }: ImageCardProps) => {
         <p className="text-sm sm:text-base leading-relaxed font-geist text-zinc-400">
           {image.description}
         </p>
+        
+        {/* Location */}
+        {image.location && (
+          <p className="text-xs font-geist text-zinc-500 italic whitespace-nowrap overflow-hidden text-ellipsis" style={{ lineHeight: '1.2' }}>
+            📍 {image.location}
+          </p>
+        )}
       </div>
     </div>
   )
